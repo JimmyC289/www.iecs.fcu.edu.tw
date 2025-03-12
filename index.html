@@ -1,0 +1,791 @@
+
+
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    
+    <title>逢甲大學資訊工程學系</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/static/image/favicon.3f1a451bf94d.ico" type="image/x-icon" />
+    <link rel="icon" href="/static/image/apple-touch-icon.ecbfb592a9da.png" sizes="32x32" />
+    <link rel="icon" href="/static/image/apple-touch-icon.ecbfb592a9da.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/static/image/apple-touch-icon.ecbfb592a9da.png" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0">
+    <!--Boostrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Base CSS -->
+    <link rel="stylesheet" href="/static/css/web_style.06c823a0884b.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container" id="nav-content">
+                <a class="navbar-brand" href="/"><img id="logo" alt="Porto" width="200" height="80"
+                        src="/static/image/logo.svg"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto me-0 mb-2 mb-lg-0 navbar-nav-scroll">
+                        <li class="nav-item dropdown top-nav" id="enrollment">
+                            <div class="category-container">
+                                <a class="nav-link category " href="/enrollment/">
+                                    招生/Admission
+                                </a>
+                                <button class="dropdown-btn">
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>
+                            </div>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://freshman.fcu.edu.tw/" class="dropdown-item" target="_blank">新生專區</a></li>
+                                <li><a href="/enrollment/college" class="dropdown-item">學士班</a></li>
+                                <li><a href="/enrollment/master" class="dropdown-item">碩士班</a></li>
+                                <li><a href="/enrollment/doctor" class="dropdown-item">博士班</a></li>
+                                <li><a href="/en/foreign/" class="dropdown-item">Admission</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown top-nav" id="about">
+                            <div class="category-container">
+                                <a class="nav-link category " href="/about/">
+                                    關於本系
+                                </a>
+                                <button class="dropdown-btn">
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>
+                            </div>
+                            <ul class="dropdown-menu">
+                                <li><a href="/about/" class="dropdown-item">本系介紹</a></li>
+                                <li><a href="/about/resource/" class="dropdown-item">教學資源</a></li>
+                                <li><a href="/about/history/" class="dropdown-item">大事紀要</a></li>
+                                <li><a href="/about/outstanding/" class="dropdown-item">系友專區</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item top-nav" id="course">
+                            <a class="nav-link category" href="/about/course_plan/">
+                                課程介紹
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown top-nav" id="teacher_list">
+                            <div class="category-container">
+                                <a class="nav-link category " href="/teacher/#FT" data-option-value=".FT">
+                                    系所成員
+                                </a>
+                                <button class="dropdown-btn">
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>
+                            </div>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                
+                                <li data-option-value=".major">
+                                    <a href="/teacher/#major"
+                                        class="dropdown-item">系主任</a>
+                                </li>
+                                
+                                
+                                
+                                <li data-option-value=".Honor">
+                                    <a href="/teacher/#Honor"
+                                        class="dropdown-item">榮譽特聘講座</a>
+                                </li>
+                                
+                                
+                                
+                                <li data-option-value=".CP">
+                                    <a href="/teacher/#CP"
+                                        class="dropdown-item">講座教授</a>
+                                </li>
+                                
+                                
+                                
+                                <li data-option-value=".a">
+                                    <a href="/teacher/#a"
+                                        class="dropdown-item">特約講座</a>
+                                </li>
+                                
+                                
+                                
+                                <li data-option-value=".DP">
+                                    <a href="/teacher/#DP"
+                                        class="dropdown-item">特聘教授</a>
+                                </li>
+                                
+                                
+                                
+                                <li data-option-value=".FT">
+                                    <a href="/teacher/#FT"
+                                        class="dropdown-item">專任教師</a>
+                                </li>
+                                
+                                
+                                
+                                <li data-option-value=".PT">
+                                    <a href="/teacher/#PT"
+                                        class="dropdown-item">兼任教師</a>
+                                </li>
+                                
+                                
+                                
+                                <li data-option-value=".administration">
+                                    <a href="/teacher/#administration"
+                                        class="dropdown-item">行政人員</a>
+                                </li>
+                                
+                                
+                                
+                                
+                                <li data-option-value=".retiree">
+                                    <a href="/teacher/#retiree" class="dropdown-item">退休教師</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown top-nav" id="news">
+                            <div class="category-container">
+                                <a class="nav-link category " href="/news/">
+                                    訊息與公告
+                                </a>
+                                <button class="dropdown-btn">
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>
+                            </div>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                    <li><a href="/news/?category=award" class="dropdown-item">系所亮點</a></li>
+                                
+                                    <li><a href="/news/?category=student" class="dropdown-item">學生專欄</a></li>
+                                
+                                    <li><a href="/news/?category=exchange" class="dropdown-item">國際交流</a></li>
+                                
+                                    <li><a href="/news/?category=teaching" class="dropdown-item">課務公告</a></li>
+                                
+                                    <li><a href="/news/?category=general" class="dropdown-item">事務公告</a></li>
+                                
+                                    <li><a href="/news/?category=speech" class="dropdown-item">演講公告</a></li>
+                                
+                                    <li><a href="/news/?category=activity" class="dropdown-item">一般活動公告</a></li>
+                                
+                                    <li><a href="/news/?category=competition" class="dropdown-item">競爭力活動公告</a></li>
+                                
+                                    <li><a href="/news/?category=job" class="dropdown-item">企業徵才</a></li>
+                                
+                                    <li><a href="/news/?category=department_activity" class="dropdown-item">系友活動</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown top-nav" id="feedback">
+                            <div class="category-container">
+                                <a class="nav-link category " href="/feedback/">
+                                    問卷回饋
+                                </a>
+                                <button class="dropdown-btn">
+                                    <i class="fas fa-chevron-down"></i>
+                                </button>
+                            </div>
+                            <ul class="dropdown-menu">
+                                
+                                
+                                    <li>
+                                        <a href="https://forms.office.com/r/0D7CgAcdSK" target="_blank" class="dropdown-item">畢業生問卷</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://forms.gle/Ad23GShTzGuQUuDx5" target="_blank" class="dropdown-item">系友問卷</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://forms.gle/Az1nCP8F8Tif55SA9" target="_blank" class="dropdown-item">雇主問卷</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSewq5jo7KrndPRlm_HsdBM1Hvxrmr9Ok5Vq6UGh8kRBKuOkGA/viewform?c=0&amp;w=1" target="_blank" class="dropdown-item">研究所考取問卷</a>
+                                    </li>
+                                
+                            </ul>
+                        </li>
+                        <a class="nav-item nav-link" id="entw" href="/en/">
+                            <span class="entwbtn">
+                                <i class="fas fa-globe-americas"></i><span class="entwfont">English</span>
+                            </span>
+                        </a>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div role="main" class="main" style="min-height: calc(100vh - 450px)">
+        
+    <section class="section-index-index">
+        <div class="container mb-4">
+            <div class="row">
+                <div class="col">
+                    <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            
+                                <a href="/news/114%E5%AD%B8%E5%B9%B4%E5%BA%A6%E5%A4%A7%E5%AD%B8%E7%94%B3%E8%AB%8B%E5%85%A5%E5%AD%B8%E6%9B%B8%E5%AF%A9%E6%BA%96%E5%82%99%E9%87%8D%E9%BB%9E%E6%8C%87%E5%BC%95/">
+                                    <div class="carousel-item active">
+                                        <img src="/media/img/news/banner/%E9%99%84%E4%BB%B6%E4%BA%8C_%E7%94%B3%E8%AB%8B%E5%85%A5%E5%AD%B8%E6%9B%B8%E9%9D%A2%E8%B3%87%E6%96%99%E5%AF%A9%E6%9F%A5%E6%BA%96%E5%82%99%E6%8C%87%E5%BC%95%E9%A6%96%E9%A0%81%E5%A4%A7%E5%9C%96%E5%BA%95%E5%9C%96%E6%A8%A3%E5%BC%8F113%E5%B9%B4%E6%96%B0%E7%89%88%E6%A8%A3%E5%BC%8F.jpg.1336x470_q85_box-0%2C154%2C1280%2C604_crop_detail.jpg" class="d-block w-100"
+                                            alt="...">
+                                    </div>
+                                </a>
+                            
+                                <a href="/news/113-2%20%E8%B3%87%E8%A8%8A%E7%B3%BB%E5%A4%A7%E5%AD%B8%E9%83%A8%E9%81%B8%E8%AA%B2/">
+                                    <div class="carousel-item ">
+                                        <img src="/media/img/news/banner/2025_01_31_113-2_%E8%B3%87%E8%A8%8A%E7%B3%BB%E5%A4%A7%E5%AD%B8%E9%83%A8%E9%81%B8%E8%AA%B2.png.1336x470_q85_box-0%2C0%2C4536%2C1595_crop_detail.png" class="d-block w-100"
+                                            alt="...">
+                                    </div>
+                                </a>
+                            
+                                <a href="/news/%E5%85%A8%E5%8F%B0%E5%94%AF%E4%B8%80NAAI%E9%99%A2%E5%A3%AB%EF%BC%81%E9%80%A2%E7%94%B2%E5%A4%A7%E5%AD%B8%E5%BC%B5%E7%9C%9F%E8%AA%A0%E8%AC%9B%E5%BA%A7%E8%88%87%E8%BC%9D%E9%81%94%E5%89%B5%E8%BE%A6%E4%BA%BA%E5%90%8C%E7%8D%B2%E6%AE%8A%E6%A6%AE/">
+                                    <div class="carousel-item ">
+                                        <img src="/media/img/news/banner/%E5%85%A8%E5%8F%B0%E5%94%AF%E4%B8%80NAAI%E9%99%A2%E5%A3%AB%E9%80%A2%E7%94%B2%E5%A4%A7%E5%AD%B8%E5%BC%B5%E7%9C%9F%E8%AA%A0%E8%AC%9B%E5%BA%A7%E8%88%87%E8%BC%9D%E9%81%94%E5%89%B5%E8%BE%A6%E4%BA%BA%E5%90%8C%E7%8D%B2%E6%AE%8A%E6%A6%AE_1336_x_470_%E5%83%8F%E7%B4%A0.jpg.1336x470_q85_box-0%2C0%2C1336%2C470_crop_detail.jpg" class="d-block w-100"
+                                            alt="...">
+                                    </div>
+                                </a>
+                            
+                                <a href="/news/%E6%9C%AC%E7%B3%BB%E5%AD%B8%E7%94%9F%E7%8D%B2Apple%E3%80%8C2024%E8%A1%8C%E5%8B%95%E6%87%89%E7%94%A8%E5%89%B5%E6%96%B0%E8%B3%BD%E3%80%8D%E5%A4%A7%E4%B8%AD%E8%8F%AF%E5%8D%80%E4%BA%8C%E7%AD%89%E7%8D%8E/">
+                                    <div class="carousel-item ">
+                                        <img src="/media/img/news/banner/123546.jpg.1336x470_q85_box-0%2C101%2C900%2C418_crop_detail.jpg" class="d-block w-100"
+                                            alt="...">
+                                    </div>
+                                </a>
+                            
+                                <a href="/news/%E5%BC%B5%E7%9C%9F%E8%AA%A0%E8%AC%9B%E5%BA%A7%E6%95%99%E6%8E%88%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8%E9%A0%98%E5%9F%9F%E5%A4%A7%E6%94%BE%E7%95%B0%E5%BD%A9/">
+                                    <div class="carousel-item ">
+                                        <img src="/media/img/news/banner/%E5%85%A8%E7%90%83%E6%8E%92%E5%90%8D%E5%89%8D%E8%90%AC%E5%88%86%E4%B9%8B%E4%B8%80%E9%A0%82%E5%B0%96%E7%A7%91%E5%AD%B8%E5%AE%B6_%E5%BC%B5%E7%9C%9F%E8%AA%A0%E8%AC%9B%E5%BA%A7%E6%95%99%E6%8E%88%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8%E9%A0%98%E5%9F%9F%E5%A4%A7%E6%94%BE%E7%95%B0%E5%BD%A9_1336_x_470_%E5%83%8F%E7%B4%A0.jpg.1336x470_q85_box-0%2C0%2C1336%2C470_crop_detail.jpg" class="d-block w-100"
+                                            alt="...">
+                                    </div>
+                                </a>
+                            
+                                <a href="/news/%E7%AC%AC%E5%9B%9B%E5%B1%86GiCS%E5%B0%8B%E6%89%BE%E8%B3%87%E5%AE%89%E5%A5%B3%E5%A9%95%E6%80%9D%E6%9C%AC%E7%B3%BB%E5%AD%B8%E7%94%9F%E5%A5%AA%E5%85%A8%E5%9C%8B%E5%86%A0%E8%BB%8D%20%E8%B6%85%E6%84%9B%E6%A0%A1%E5%91%BD%E5%90%8D%E6%8F%AA%E7%94%98%E5%BF%83/">
+                                    <div class="carousel-item ">
+                                        <img src="/media/img/news/banner/GiCS_final_v0430.jpg.1336x470_q85_box-0%2C0%2C1336%2C470_crop_detail.jpg" class="d-block w-100"
+                                            alt="...">
+                                    </div>
+                                </a>
+                            
+                                <a href="/news/%E8%98%8B%E6%9E%9CWWDC-Swift%E5%AD%B8%E7%94%9F%E6%8C%91%E6%88%B0%E8%B3%BD%E5%AD%B8%E7%94%9F%E7%8D%B2%E6%AE%BF%E5%A0%82%E7%B4%9A%E8%AA%8D%E8%AD%89/">
+                                    <div class="carousel-item ">
+                                        <img src="/media/img/news/banner/%E8%98%8B%E6%9E%9CWWDC-Swift%E5%AD%B8%E7%94%9F%E6%8C%91%E6%88%B0%E8%B3%BD_%E9%80%A2%E7%94%B2%E5%AD%B8%E7%94%9F%E5%AF%A6%E5%8A%9B%E7%8D%B2%E6%AE%BF%E5%A0%82%E7%B4%9A%E8%AA%8D%E8%AD%89.jpg.1336x470_q85_box-0%2C0%2C1336%2C470_crop_detail.jpg" class="d-block w-100"
+                                            alt="...">
+                                    </div>
+                                </a>
+                            
+                                <a href="/news/%E8%B3%87%E8%A8%8A%E5%B7%A5%E7%A8%8B%E5%AD%B8%E7%B3%BB%E5%90%8C%E5%AD%B8%E7%AC%AC54%E5%B1%86%E4%B8%AD%E5%8D%80%E5%88%86%E5%8D%80%E6%8A%80%E8%83%BD%E7%AB%B6%E8%B3%BD%E6%8B%BF%E4%B8%8B%E5%85%AD%E5%80%8B%E7%8D%8E%E9%A0%85%E6%99%89%E7%B4%9A%E5%85%A8%E5%9C%8B%E8%B3%BD/">
+                                    <div class="carousel-item ">
+                                        <img src="/media/img/news/banner/hck.jpg.1336x470_q85_box-0%2C0%2C1336%2C470_crop_detail.jpg" class="d-block w-100"
+                                            alt="...">
+                                    </div>
+                                </a>
+                            
+                                <a href="/news/2024WWDC%E5%AD%B8%E7%94%9F%E6%8C%91%E6%88%B0%E8%B3%BDiOS%20Club%E6%9E%97%E6%A5%B7%E7%A5%90%E4%BB%A5Mind%20Guard%E7%8D%B2%E7%8D%8E/">
+                                    <div class="carousel-item ">
+                                        <img src="/media/img/news/banner/wwdc.jpg.1336x470_q85_box-0%2C0%2C1336%2C470_crop_detail.jpg" class="d-block w-100"
+                                            alt="...">
+                                    </div>
+                                </a>
+                            
+                                <a href="/news/%E6%9E%97%E4%BD%A9%E8%93%89%E8%80%81%E5%B8%AB%E6%8C%87%E5%B0%8E%E5%90%8C%E5%AD%B8%E7%8D%B22024%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%B1%86%E5%85%A8%E5%9C%8B%E9%9B%BB%E5%AD%90%E8%A8%AD%E8%A8%88%E5%89%B5%E6%84%8F%E7%AB%B6%E8%B3%BD%E5%86%A0%E8%BB%8D/">
+                                    <div class="carousel-item ">
+                                        <img src="/media/img/news/banner/884A3D4E-6304-4D9E-B5D6-F7ABC779E792.jpg.1336x470_q85_box-0%2C891%2C5712%2C2901_crop_detail.jpg" class="d-block w-100"
+                                            alt="...">
+                                    </div>
+                                </a>
+                            
+                                <a href="/news/%E6%9C%AC%E7%B3%BB%E5%90%8C%E5%AD%B8%E5%8B%87%E5%A5%AA%E5%85%A8%E5%9C%8B%E6%8A%80%E8%83%BD%E7%AB%B6%E8%B3%BD%E9%9B%B2%E7%AB%AF%E9%81%8B%E7%AE%97%E5%8F%8A%E7%B6%B2%E8%B7%AF%E5%AE%89%E5%85%A8%E5%A4%9A%E9%A0%85%E5%A4%A7%E7%8D%8E/">
+                                    <div class="carousel-item ">
+                                        <img src="/media/img/news/banner/NSC.jpg.1336x470_q85_box-0%2C0%2C1336%2C470_crop_detail.jpg" class="d-block w-100"
+                                            alt="...">
+                                    </div>
+                                </a>
+                            
+                            
+                                <div class="carousel-item">
+                                    <img src="/media/img/index/banner/cs.jpg.1336x470_q85_box-0%2C0%2C1336%2C470_crop_detail.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                            
+                                <div class="carousel-item">
+                                    <img src="/media/img/index/banner/3401C302-9E1A-4EDD-AF92-AD491301429A.jpeg.1336x470_q85_box-0%2C30%2C2900%2C1050_crop_detail.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                            
+                                <div class="carousel-item">
+                                    <img src="/media/img/index/banner/1BB98B6E-646A-4EB3-A9A0-CED911AAE904.jpeg.1336x470_q85_box-0%2C30%2C2900%2C1050_crop_detail.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                            
+                                <div class="carousel-item">
+                                    <img src="/media/img/index/banner/7040A41E-047B-4BCA-AB63-C4833016C070.jpeg.1336x470_q85_box-0%2C30%2C2900%2C1050_crop_detail.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                            
+                                <div class="carousel-item">
+                                    <img src="/media/img/index/banner/70233F0C-83D1-4153-846B-3EFBE0AFE2A4.jpeg.1336x470_q85_box-0%2C30%2C2900%2C1050_crop_detail.jpg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                            
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2 class="fw-bold">認識我們</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    
+                        <div class="swiper-slide card">
+                            <button data-url="https://www.youtube.com/watch?v=oDDY-HMa8ec" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
+                                <img src="/media/img/index/video/oDDY-HMa8ec/0.jpg" class="card-img-top">
+                                <p>你憧憬的大學是什麼樣子</p>
+                            </button>
+                        </div>
+                    
+                        <div class="swiper-slide card">
+                            <button data-url="https://www.youtube.com/watch?v=gJzEtuOyiP4" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
+                                <img src="/media/img/index/video/gJzEtuOyiP4/0.jpg" class="card-img-top">
+                                <p>這是我眼中的逢甲大學</p>
+                            </button>
+                        </div>
+                    
+                        <div class="swiper-slide card">
+                            <button data-url="https://www.youtube.com/watch?v=Vwba3LrbsgU" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
+                                <img src="/media/img/index/video/Vwba3LrbsgU/0.jpg" class="card-img-top">
+                                <p>關於就讀逢甲資工系的經驗分享</p>
+                            </button>
+                        </div>
+                    
+                        <div class="swiper-slide card">
+                            <button data-url="https://www.youtube.com/watch?v=_zZGSaMcWg0" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
+                                <img src="/media/img/index/video/_zZGSaMcWg0/0.jpg" class="card-img-top">
+                                <p>連續2年WWDC-Swift學生挑戰賽獲獎</p>
+                            </button>
+                        </div>
+                    
+                        <div class="swiper-slide card">
+                            <button data-url="https://www.youtube.com/watch?v=pJ1b_c3YfiY" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
+                                <img src="/media/img/index/video/pJ1b_c3YfiY/0.jpg" class="card-img-top">
+                                <p>全台校園唯一5G專網 整個校園都是我的Living Lab</p>
+                            </button>
+                        </div>
+                    
+                        <div class="swiper-slide card">
+                            <button data-url="https://www.youtube.com/watch?v=gjit7Uspg78" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
+                                <img src="/media/img/index/video/gjit7Uspg78/0.jpg" class="card-img-top">
+                                <p>逢甲大學62周年校慶 「Together」</p>
+                            </button>
+                        </div>
+                    
+                        <div class="swiper-slide card">
+                            <button data-url="https://www.youtube.com/watch?v=q7UcqyqDWrs" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
+                                <img src="/media/img/index/video/q7UcqyqDWrs/0.jpg" class="card-img-top">
+                                <p>日本學生在逢甲的一天!</p>
+                            </button>
+                        </div>
+                    
+                        <div class="swiper-slide card">
+                            <button data-url="https://www.youtube.com/watch?time_continue=1&amp;v=l194tU9oa7s" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
+                                <img src="/media/img/index/video/2020-11-20_090106.jpg" class="card-img-top">
+                                <p>逢甲大學簡介</p>
+                            </button>
+                        </div>
+                    
+                        <div class="swiper-slide card">
+                            <button data-url="https://www.youtube.com/watch?v=XsdIFMIfs04" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
+                                <img src="/media/img/index/video/XsdIFMIfs04/0.jpg" class="card-img-top">
+                                <p>Introduction to Feng Chia University</p>
+                            </button>
+                        </div>
+                    
+                        <div class="swiper-slide card">
+                            <button data-url="https://www.youtube.com/watch?v=BkvyogWN_gY" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
+                                <img src="/media/img/index/video/BkvyogWN_gY/0.jpg" class="card-img-top">
+                                <p>專訪資訊系傑出系友研勤科技簡良益董事長</p>
+                            </button>
+                        </div>
+                    
+                        <div class="swiper-slide card">
+                            <button data-url="https://www.youtube.com/watch?v=Zr2ejasbnAA" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
+                                <img src="/media/img/index/video/Zr2ejasbnAA/0.jpg" class="card-img-top">
+                                <p>五十周年系慶-劉安之特聘講座教授</p>
+                            </button>
+                        </div>
+                    
+                        <div class="swiper-slide card">
+                            <button data-url="https://www.youtube.com/watch?v=mfyi8QoMFjI" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
+                                <img src="/media/img/index/video/mfyi8QoMFjI/0.jpg" class="card-img-top">
+                                <p>五十周年系慶-張真誠特聘講座教授</p>
+                            </button>
+                        </div>
+                    
+                        <div class="swiper-slide card">
+                            <button data-url="https://www.youtube.com/watch?v=htCNj07XsAM" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
+                                <img src="/media/img/index/video/photo.jpeg" class="card-img-top">
+                                <p>台中市簡介 (台中市政府影片)</p>
+                            </button>
+                        </div>
+                    
+                        <div class="swiper-slide card">
+                            <button data-url="https://www.youtube.com/watch?v=97JOR05pxts" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
+                                <img src="/media/img/index/video/2.jpg" class="card-img-top">
+                                <p>資訊工程學系50週年紀念影片</p>
+                            </button>
+                        </div>
+                    
+                        <div class="swiper-slide card">
+                            <button data-url="https://www.youtube.com/watch?v=081uH9uoFQo" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
+                                <img src="/media/img/index/video/081uH9uoFQo/0.jpg" class="card-img-top">
+                                <p>逢甲大學高承恕董事長談共善樓</p>
+                            </button>
+                        </div>
+                    
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div class="modal fade" id="modalForVideo" tabindex="-1" aria-labelledby="" aria-hidden="true">
+                <div class="modal-dialog modal-youtube">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal-content"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mb-5">
+            <h2 class="fw-bold">系所亮點</h2>
+            <div class="row">
+                
+                    <div class="col-lg-4 col-md-6 mt-2">
+                        <div class="card honor-card">
+                            <a href="/news/%E8%91%89%E6%98%A5%E7%A7%80%E8%80%81%E5%B8%AB%E6%8C%87%E5%B0%8E%E5%AD%B8%E7%94%9F%E7%8D%B2%E6%AF%AB%E7%B1%B3%E6%B3%A2%E9%9B%B7%E9%81%94AI%E5%89%B5%E6%84%8F%E7%AB%B6%E8%B3%BD%E4%BA%9E%E8%BB%8D/">
+                                <div class="card-img-top overflow-hidden">
+                                    <img src="/media/img/news/banner/yehyeh.jpg.1336x470_q85_box-0%2C79%2C900%2C396_crop_detail.jpg" class="card-img-top card-img-scale" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        葉春秀老師指導學生獲毫米波雷達AI創意競賽亞軍
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                
+                    <div class="col-lg-4 col-md-6 mt-2">
+                        <div class="card honor-card">
+                            <a href="/news/%E5%BC%B5%E5%93%B2%E8%AA%A0%E8%80%81%E5%B8%AB%E6%8C%87%E5%B0%8E%E6%9F%B3%E6%9F%8F%E5%AE%87%E3%80%81%E9%99%B3%E6%9F%8F%E4%BB%BB%E3%80%81%E5%90%B3%E6%9F%8F%E5%BB%B7%E7%8D%B2ECICE%202024%E6%9C%80%E4%BD%B3%E8%AB%96%E6%96%87%E7%8D%8E/">
+                                <div class="card-img-top overflow-hidden">
+                                    <img src="/media/img/news/banner/cccc123131222.jpg.1336x470_q85_box-0%2C0%2C1336%2C470_crop_detail.jpg" class="card-img-top card-img-scale" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        張哲誠老師指導柳柏宇、陳柏任、吳柏廷獲ECICE 2024最佳論文獎
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                
+                    <div class="col-lg-4 col-md-6 mt-2">
+                        <div class="card honor-card">
+                            <a href="/news/%E5%BC%B5%E5%93%B2%E8%AA%A0%E8%80%81%E5%B8%AB%E6%8C%87%E5%B0%8E%E9%99%B3%E6%96%87%E6%96%8C%E3%80%81%E6%9E%97%E6%98%93%E5%A8%81%E3%80%81%E6%9E%97%E7%85%9C%E5%B1%95%E3%80%81%E6%BD%98%E6%9F%8F%E5%8F%A1%E7%8D%B2ECICE%202024%E6%9C%80%E4%BD%B3%E8%AB%96%E6%96%87%E7%8D%8E/">
+                                <div class="card-img-top overflow-hidden">
+                                    <img src="/media/img/news/banner/cccc123131.jpg.1336x470_q85_box-0%2C0%2C1336%2C470_crop_detail.jpg" class="card-img-top card-img-scale" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        張哲誠老師指導陳文斌、林易威、林煜展、潘柏叡獲ECICE 2024最佳論文獎
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                
+            </div>
+            <div class="d-flex justify-content-end">
+                <div class="d-flex justify-content-center col-lg-4">
+                    <a href="/news/?category=award" class="btn btn-primary custom-btn-style mt-4">觀看更多 </a>
+                </div>
+            </div>
+        </div>
+
+        <section class="section section-no-border bg-color-light m-0">
+            <div class="container section-event">
+                <div class="row justify-content-center align-items-stretch">
+                    <div class="col-lg-6 d-flex flex-column">
+
+                        <div class="flex-grow-1">
+                            <h2 class="fw-bold">國際交流</h2>
+                            <div class="card box-shadow mb-4">
+                                <div class="card-img-top overflow-hidden">
+                                    
+                                        <img src="/media/img/news/banner/%E5%9C%96%E7%89%871.jpg.1336x470_q85_box-0%2C25%2C624%2C244_crop_detail.jpg" class="card-img-top card-img-scale" alt="...">
+                                    
+                                </div>
+                                <div class="card-body">
+                                    
+                                        <a href="/news/%E5%8F%B0%E7%81%A3%E7%95%99%E5%AD%B8%E6%98%AF%E4%B8%80%E5%A0%B4%E5%85%85%E6%BB%BF%E6%8C%91%E6%88%B0%E8%88%87%E9%A9%9A%E5%96%9C%E7%9A%84%E6%97%85%E7%A8%8BBagi%20banyak%20mahasiswa%20asing%20seperti%20saya,%20belajar%20di%20Taiwan%20adalah%20perjalanan%20penuh/">
+                                            <h4 class="card-title">台灣留學是一場充滿挑戰與驚喜的旅程Bagi banyak mahasiswa asing seperti saya, belajar di Taiwan adalah perjalanan penuh</h4>
+                                            <p class="card-text">我是蔡明偉，來自印尼，目前就讀於逢甲大學資訊工程學系。對於許多像我一樣的外國學生而言，來台灣留學是一場充滿挑戰與驚喜的旅程。今天，我想和大家分享我的留學故事，特別是作為資訊工程學生的學習與生活點滴。...</p>
+                                        </a>
+                                    
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <a href="/news/?category=exchange" class="btn btn-primary custom-btn-style">觀看更多</a>
+                            </div>
+                        </div>
+
+                        <div class="flex-grow-1">
+                            <h2 class="fw-bold">下個活動</h2>
+                            <div class="card box-shadow mb-4">
+                                <div class="card-img-top overflow-hidden">
+                                    
+                                        <img src="/media/img/news/banner/general_UcdhNj0.png.1336x470_q85_box-0%2C38%2C1200%2C460_crop_detail.png" class="card-img-top card-img-scale" alt="...">
+                                    
+                                </div>
+                                <div class="card-body">
+                                    
+                                        <a href="/news/2025%E5%B9%B4%E7%94%B3%E8%AB%8B%E8%BD%89%E5%85%A5%E8%B3%87%E8%A8%8A%E7%B3%BB%E5%85%AC%E5%91%8A/">
+                                            <ul class="d-flex flex-colume time p-0 m-0">
+                                                <li class="iecs-darkfont">
+                                                    <i class="far fa-clock"></i>
+                                                    午夜
+                                                </li>
+                                                <li class="text-uppercase iecs-darkfont ms-3">
+                                                    <i class="fas fa-calendar-check"></i>
+                                                    2025-03-12
+                                                </li>
+                                            </ul>
+                                            <h4 class="card-title">2025年申請轉入資訊系公告</h4>
+                                            <p class="card-text">《2025年申請轉入資訊系公告》
+請欲申請轉至本系之同學留意以下相關時程
+
+轉系申請作業時程：
+3/12~14 至 MyFCU 線上申請
+3/18(二) 之前繳交學習導師諮詢表
+3/18(二) 之前繳交書面審查資料之電子檔
+3/24(一) 公告書審通過名單及第二階段面試順序及時間地點
+3/27~3/28 面試...</p>
+                                        </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex-grow-1 d-flex flex-column">
+                            <div class="flex-grow-1">
+                                <h2 class="fw-bold">近期活動</h2>
+                                
+                                    
+                                    <article class="custom-post-event d-flex align-items-start">
+                                        <div class="post-event-date text-center">
+                                            <p class="month text-uppercase">三月</p>
+                                            <p class="day fw-bold">14</p>
+                                            <p class="year">2025</p>
+                                        </div>
+                                        <div class="post-event-content">
+                                            <h4 class="fw-bold">
+                                                <a href="/news/%E3%80%90%E6%95%99%E8%82%B2%E9%83%A8%E3%80%91%E9%9D%92%E5%B9%B4%E7%99%BE%E5%84%84%E6%B5%B7%E5%A4%96%E5%9C%93%E5%A4%A2%E5%9F%BA%E9%87%91%E8%A8%88%E7%95%AB/" class="recent-event-name">【教育部】青年百億海外圓夢基金計畫</a>
+                                            </h4>
+                                            <p class="recent-event-short-description">2025-03-14報名截止...</p>
+                                        </div>
+                                    </article>
+                                
+                                    
+                                        <hr class="solid">
+                                    
+                                    <article class="custom-post-event d-flex align-items-start">
+                                        <div class="post-event-date text-center">
+                                            <p class="month text-uppercase">三月</p>
+                                            <p class="day fw-bold">18</p>
+                                            <p class="year">2025</p>
+                                        </div>
+                                        <div class="post-event-content">
+                                            <h4 class="fw-bold">
+                                                <a href="/news/%E3%80%90%E5%B0%88%E9%A1%8C%E6%BC%94%E8%AC%9B%E3%80%91%E9%84%AD%E5%86%8D%E8%88%88%E8%91%A3%E4%BA%8B%E9%95%B7%20%E5%89%B5%E6%A5%AD4.0/" class="recent-event-name">【專題演講】鄭再興董事長 創業4.0</a>
+                                            </h4>
+                                            <p class="recent-event-short-description">[ALL] 創業4.0...</p>
+                                        </div>
+                                    </article>
+                                
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <a href="/news/" class="btn btn-primary custom-btn-style">前往最新活動</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 d-flex flex-column">
+                        <div class="container flex-grow-1">
+                            <h2 class="fw-bold">資訊科技要聞</h2>
+                            <div class="list-group">
+                                
+                                    <a href="https://udn.com/news/story/6928/8344098" class="list-group-item list-group-item-action">資通訊產業夯 高中生最愛電資科系排行學生選系不選校</a>
+                                
+                                    <a href="https://www.cna.com.tw/postwrite/chi/368121" class="list-group-item list-group-item-action">逢甲大學資訊工程學系 第54屆中區分區技能競賽拿下六個獎項</a>
+                                
+                                    <a href="https://udn.com/news/story/7241/7792131" class="list-group-item list-group-item-action">成大等五校奪企業最愛大學生前五強 逢甲為私校龍頭</a>
+                                
+                                    <a href="https://www.informationsecurity.com.tw/article/article_detail.aspx?aid=10814" class="list-group-item list-group-item-action">「NICS 台灣資安計畫」助力中小型企業、非營利組織強化資安</a>
+                                
+                                    <a href="https://tw.stock.yahoo.com/news/%E8%B3%87%E5%AE%89%E9%99%A2%E8%88%87%E9%80%A2%E7%94%B2%E5%A4%A7%E5%AD%B8%E5%85%B1%E5%BB%BA%E5%AF%A6%E6%88%B0%E6%A8%A1%E6%93%AC%E5%A0%B4%E5%9F%9F-012230358.html" class="list-group-item list-group-item-action">資安院與逢甲大學共建實戰模擬場域 強化資安技術創研應用</a>
+                                
+                                    <a href="https://www.fcu.edu.tw/news/2023071704/" class="list-group-item list-group-item-action">林昭陽學長出任中華電信總經理</a>
+                                
+                                    <a href="https://money.udn.com/money/story/5612/7280781?from=edn_related_storybottom" class="list-group-item list-group-item-action">「APP移動應用創新賽」逢甲資工獲佳績</a>
+                                
+                                    <a href="https://n.yam.com/Article/20230328497090" class="list-group-item list-group-item-action">全國技能競賽，逢甲獲佳績</a>
+                                
+                                    <a href="https://www.inside.com.tw/article/30483-ChatGPT-applications" class="list-group-item list-group-item-action">ChatGPT 太熱，成了世界經濟論壇巨頭們的話題焦點</a>
+                                
+                                    <a href="https://www.technice.com.tw/" class="list-group-item list-group-item-action">科技島社群 Tech Nice</a>
+                                
+                                    <a href="https://tw.news.yahoo.com/%E8%B3%87%E5%B7%A5%E5%90%AB%E9%87%91%E9%87%8F%E9%A9%9A%E4%BA%BA-%E7%A2%A9%E5%AD%B8%E5%A3%AB%E5%B7%AE2-25%E5%80%8D-201000872.html" class="list-group-item list-group-item-action">資工含金量驚人 碩學士差2.25倍</a>
+                                
+                                    <a href="https://www.ithome.com.tw/people/144118" class="list-group-item list-group-item-action">靠AIoT和5G邁向智慧校園，逢甲還要用雲端彈性化IT架構</a>
+                                
+                                    <a href="https://tw.news.yahoo.com/ncc%E6%89%93%E9%80%A0%E5%9C%8B%E5%AE%B6%E8%B3%87%E5%AE%89-%E5%BB%BA%E5%AE%89%E5%85%A85g%E7%92%B0%E5%A2%83-093021704.html" class="list-group-item list-group-item-action">NCC打造國家資安 建安全5G環境</a>
+                                
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center flex-column">
+                                <a href="/technology_news/" class="btn btn-primary custom-btn-style mt-4 mb-4">觀看更多</a>
+                            </div>
+                        </div>
+
+                        <div class="container flex-grow-1">
+                            <h2 class="fw-bold">競賽資訊</h2>
+                            <div class="list-group">
+                                
+                                    <a href="https://pcalifeinnovation.com.tw/?utm_source=bhuntr_ad&amp;utm_medium=click&amp;utm_campaign=0113_bhuntr" class="list-group-item list-group-item-action">第四屆保誠創新智造所</a>
+                                
+                                    <a href="https://bhuntr.com/tw/competitions/8s0oykmswg353r42h7" class="list-group-item list-group-item-action">第8屆教育部獎助研發特殊教育教材教具設計競賽</a>
+                                
+                                    <a href="https://linktr.ee/TAIROAcompetition" class="list-group-item list-group-item-action">第十七屆上銀智慧機器手實作競賽</a>
+                                
+                                    <a href="https://www.gotop.com.tw/championship/default.aspx" class="list-group-item list-group-item-action">2025 MOS / ACP 全國大賽競賽</a>
+                                
+                                    <a href="https://www.wdasec.gov.tw/News_Content.aspx?n=BD34663BD4EC9F4C&amp;sms=535E01AC52EFB5A7&amp;s=179419748EDE73A3" class="list-group-item list-group-item-action">第55屆全國技能競賽</a>
+                                
+                                    <a href="https://www.axis3d.com/post/%E3%80%902025%E5%85%83%E5%AE%87%E5%AE%99%E8%99%9B%E6%93%AC%E7%B6%B2%E7%B4%85%E5%89%B5%E4%BD%9C%E8%A8%AD%E8%A8%88%E5%A4%A7%E8%B3%BD%E3%80%91-2%E6%9C%8810%E6%97%A5%E8%B5%B7%E" class="list-group-item list-group-item-action">2025元宇宙虛擬網紅創作設計大賽</a>
+                                
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScdRhssMaN6qMqgxaLDwuDqmZzE1rEE9A0vQaV4uOgnvR4LIw/viewform" class="list-group-item list-group-item-action">第十四屆全國大專院校AI智動化設備創作獎</a>
+                                
+                                    <a href="https://asia-aicontest.mystrikingly.com/" class="list-group-item list-group-item-action">2025 生成式AI創意設計競賽</a>
+                                
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfa1yEkVMJ6yQ6GuEkYfy7fKZMkUSxI0HH5jZhJbSdoRFTxGw/viewform" class="list-group-item list-group-item-action">2025台灣仿生設計競賽大專暨青創組</a>
+                                
+                                    <a href="https://freeway2025.tw/" class="list-group-item list-group-item-action">114年國道智慧交通管理創意競賽</a>
+                                
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center flex-column">
+                                <a href="/competition_news/" class="btn btn-primary custom-btn-style mt-4 mb-4">觀看更多</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+    </div>
+    <footer class="custom-bg-color-1 border-top-0 m-0">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-lg-5">
+                    <p class="pr-5">
+                        逢甲資訊工程系成立於1969年，是我國資訊教育界先驅之一，具有學士班、碩士班及博士班，學制完整形成相互學習的場域，迄今已有畢業系友萬餘人。本系以教學為本，建立扎實基礎;
+                        精實研究，厚實創能人才; 鼓勵產學合作，培育務實能力。</p>
+                    <img src="/static/image/logo_footer.ed94b80e9e25.svg" style="height: 65px;" alt="iecs-logo">
+                    <img src="/static/image/IEET.9fdebee6472f.svg" style="height:90px;" alt="ieet-logo">
+                    <p><a href="/nlhsueh">Developed by Software Engineering Lab</a>
+                    </p>
+                </div>
+                <div class="col-sm-6 col-lg-2">
+                    <h2 class="text-color-light custom-fontsize-6 mb-3">快速連結</h2>
+                    <ul class="list list-unstyled">
+                        <li><a href="http://www.fcu.edu.tw">逢甲大學</a></li>
+                        <li><a href="https://www.checkinatfcu.com/">逢城學記</a></li>
+                        <li><a href="https://ilearn2.fcu.edu.tw/">ilearn2.0</a></li>
+                        <li><a href="http://www.coiee.fcu.edu.tw">資訊電機學院</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-lg-2">
+                    <h2 class="text-color-light custom-fontsize-6 mb-3">常用服務</h2>
+                    <ul class="list list-unstyled">
+                        <li><a href="https://coursesearch02.fcu.edu.tw/main.aspx">課程檢索系統</a></li>
+                        <li><a href="https://topic-coiee.fcu.edu.tw/booking?unit=dcb44906-4411-4e7f-b7d1-12afb73e173e">研討室借用系統</a></li>
+                        <li><a href="https://topic-coiee.fcu.edu.tw/booking">資電學院資源借用</a></li>
+                        <li><a href="https://topic-coiee.fcu.edu.tw/">專題計畫管理系統</a></li>
+                        <li><a href="https://intern.iecs.fcu.edu.tw/">產學實習管理系統</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <h2 class="text-color-light custom-fontsize-6 mb-3">聯絡我們</h2>
+                    <a href="https://goo.gl/maps/Ly6QMouiP8y">
+                        <p>逢甲大學 資訊電機館二樓(資電201)<br>台中市西屯區逢大路127號(文華路100號) </p>
+                    </a>
+                    <a href="tel:0424517250">
+                        <p class="mb-0 text-white">聯絡電話：0424517250#3701</p>
+                    </a>
+                    <a href="mailto:iecs@fcu.edu.tw">
+                        <p class="mb-0 text-white">聯絡信箱：iecs@fcu.edu.tw</p>
+                    </a>
+                    <a href="https://www.fcu.edu.tw/privacy/">
+                        <p class="mb-0">個資保護政策</p>
+                    </a>
+                    <ul class="header-social-icons social-icons d-none d-sm-block ml-1 mt-4">
+                        <li class="social-icons-facebook"><a href="https://www.facebook.com/groups/FCUIECSSA/about/"
+                                target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li class="social-icons-location"><a href="https://goo.gl/maps/Ly6QMouiP8y" target="_blank"
+                                title="googlemap"><i class="fas fa-map-marker-alt"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="/static/js/web_base.796446eeebc5.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/static/js/web_index.682f25d0b190.js"></script>
+
+</body>
+</html>
